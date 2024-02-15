@@ -1,0 +1,83 @@
+[
+    {
+        "q":"Pour utiliser les objets connectés, on va utiliser lequel des nano-ordinateurs?",
+        "a":"Raspberry Pi",
+        "b":"Arduino",
+        "c":"Banana Pi",
+        "rep":"a",
+        "pts":2
+    },
+    {
+        "q":"Dans le cours, on va utiliser quel langage de programmation?",
+        "a":"Java",
+        "b":"C++",
+        "c":"Python",
+        "rep":"c",
+        "pts":2
+    },
+    {
+        "q":"Quelle environnement de développement on utilise dans le cours?",
+        "a":"Visual Studio Code",
+        "b":"Eclipse",
+        "c":"Android Studio",
+        "rep":"a",
+        "pts":1
+    },
+    {
+        "q":"En quelle année la seconde guerre mondiale a-t-elle pris fin?",
+        "a":"1950",
+        "b":"1945",
+        "c":"1917",
+        "rep":"b",
+        "pts":4
+    },
+    {
+        "q":"Quelle est la capitale de la France?",
+        "a":"Nice",
+        "b":"Marseille",
+        "c":"Paris",
+        "rep":"c",
+        "pts":2
+    },
+    {
+        "q":"Qui estle plus grand pays du monde?",
+        "a":"Russie",
+        "b":"Canada",
+        "c":"États-Unis",
+        "rep":"a",
+        "pts":2
+    },
+    {
+        "q":"Combien de pattes comporte le corps de l'araignée?",
+        "a":"4",
+        "b":"8",
+        "c":"6",
+        "rep":"b",
+        "pts":5
+    },
+    {
+        "q":"Quelle est la plan;te la plus loin du soleil?",
+        "a":"Mars",
+        "b":"Uranus",
+        "c":"Neptune",
+        "rep":"c",
+        "pts":4
+    },
+    {
+        "q":"Au soccer, combien de membres de chaque équipes sont sur le terrain?",
+        "a":"5",
+        "b":"11",
+        "c":"8",
+        "rep":"b",
+        "pts":2
+    },
+    {
+        "q":"En musique, quelle est la voix la plus haute?",
+        "a":"Alto",
+        "b":"Soprano",
+        "c":"Ténor",
+        "rep":"b",
+        "pts":1
+    }
+    
+    ]
