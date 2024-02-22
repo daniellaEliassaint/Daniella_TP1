@@ -1,0 +1,21 @@
+{
+    "resultat": [
+        {
+            "nom": "da",
+            "datePartie": "2024-02-22 10:28:37.600994",
+            "listeReponses": [
+                {
+                    "question": "Pour utiliser les objets connectés, on va utiliser lequel des nano-ordinateurs?",
+                    "reponse": "a",
+                    "bonne": true
+                },
+                {
+                    "question": "Dans le cours, on va utiliser quel langage de programmation?",
+                    "reponse": "c",
+                    "bonne": true
+                }
+            ],
+            "pointage": 4
+        }
+    ]
+}

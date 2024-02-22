@@ -46,6 +46,9 @@ for i in questions:
         reponse = True
 
     elif choix == 'q':
+        print()
+        print("Fin de la partie")
+        print("Votre pointage est: ", joueur.pointage, "points")
         break
     else :
         print ("Mauvaise réponse. La bonne réponse est " , i["rep"])
@@ -58,7 +61,7 @@ for i in questions:
     print()
     numeroQuestion +=1
   
-joueur.afficherPartie()
+
     
 resultat_dict = {
     "nom": joueur.nomJoueur,
@@ -67,13 +70,26 @@ resultat_dict = {
     "pointage": joueur.pointage
 }
 
+resultat = {"resultat": [resultat_dict]}
+
 # écriture du dictionnaire dans un fichier 
-with open ("resultat.json", "w", encoding="utf-8") as fic_json:
-    json.dump(resultat_dict,
-              fic_json,
+with open ("resultat.json", "w", encoding="utf-8") as fic:
+    json.dump(resultat,
+              fic,
               ensure_ascii=False,
               indent = 4,
               sort_keys=False)
+
+print()
+#Ouverture du fichier 
+try:
+    with open("resultat.json", encoding="utf-8") as fic:
+        resultat = json.load(fic)
+except:
+    print("Erreur de fichier")
+else:
+    print("Ouverture de fichier") 
+
 
 
 
