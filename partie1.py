@@ -13,7 +13,7 @@ print("|  q pour quitter                                             |")
 print("|-------------------------------------------------------------|")
 
 nom = input("Entrez votre nom: ")
-joueur = module(nom)
+joueur = module.Joueur(nom)
 numeroQuestion =1
 #afficher les questions
 for i in questions:
@@ -26,19 +26,19 @@ for i in questions:
     
     if choix == i["rep"]:
         print ("Bonne réponse!")
-        module.joueur["pointage"]+= i["pts"]
+        joueur.pointage += i["pts"]
         reponse = True
 
     elif choix == 'q':
         print()
         print("Fin de la partie")
-        print("Votre pointage est: ",   module.joueur["pointage"], "points")
+        print("Votre pointage est: ", joueur.pointage, "points")
         break
     else :
         print ("Mauvaise réponse. La bonne réponse est " , i["rep"])
         reponse=False
         
-    module.joueur.listeReponses.append( {"question": i["q"],
+    joueur.listeReponses.append( {"question": i["q"],
                                   "reponse": choix,
                                   "bonne" :reponse})
     
@@ -48,8 +48,29 @@ for i in questions:
 
     
 resultat_dict = {
-    "datePartie": str(module.joueur.datePartie),
-    "nom": module.joueur.nomJoueur,
-    "listeReponses": module.joueur.listeReponses,
-    "pointage": module.joueur.pointage
+    "datePartie": str(joueur.datePartie),
+    "nom": joueur.nomJoueur,
+    "listeReponses": joueur.listeReponses,
+    "pointage": joueur.pointage
 }
+
+resultat = {"resultat": [resultat_dict]}
+
+# écriture du dictionnaire dans un fichier 
+with open ("resultat.json", "w", encoding="utf-8") as fic:
+    json.dump(resultat,
+              fic,
+              ensure_ascii=False,
+              indent = 4,
+              sort_keys=False)
+
+print()
+#Ouverture du fichier 
+try:
+    with open("resultat.json", encoding="utf-8") as fic:
+        resultat = json.load(fic)
+except:
+    print("Erreur de fichier")
+else:
+    print("Ouverture de fichier") 
+

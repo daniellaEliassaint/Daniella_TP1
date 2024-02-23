@@ -17,3 +17,21 @@ class Joueur :
               ",listeReponses: " + str(self.listeReponses) +
               "Pointage: " + str(self.pointage))
         
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
