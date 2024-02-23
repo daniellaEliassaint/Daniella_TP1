@@ -91,7 +91,7 @@ class fenetre(tk.Tk):
         select_resultat = fichier_select
         
         for reponse in select_resultat.get("listeReponses", ()):
-            question = "{} Réponse: {}".format(reponse.get('question', ''), reponse.get('reponse', '')) 
+            question = "Réponse:", reponse.get('reponse', '')
             correct = reponse.get("bonne", False)
             
             couleur = "green" if correct else "red"

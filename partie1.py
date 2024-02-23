@@ -35,11 +35,11 @@ for i in questions:
         print("Votre pointage est: ", joueur.pointage, "points")
         break
     else :
-        print ("Mauvaise réponse. La bonne réponse est " , i["rep"])
+        print ("Mauvaise réponse. La bonne réponse est " , i[i["rep"]])
         reponse=False
         
     joueur.listeReponses.append( {"question": i["q"],
-                                  "reponse": choix,
+                                  "reponse":choix,
                                   "bonne" :reponse})
     
     print()

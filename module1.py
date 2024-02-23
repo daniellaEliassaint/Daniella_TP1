@@ -1,5 +1,4 @@
 import datetime
-import json 
 
 #création de la classe/objet Joueur 
 class Joueur :
