@@ -64,8 +64,8 @@ for i in questions:
 
     
 resultat_dict = {
-    "nom": joueur.nomJoueur,
     "datePartie": str(joueur.datePartie),
+    "nom": joueur.nomJoueur,
     "listeReponses": joueur.listeReponses,
     "pointage": joueur.pointage
 }

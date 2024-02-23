@@ -1,8 +1,8 @@
 {
     "resultat": [
         {
-            "nom": "da",
-            "datePartie": "2024-02-22 10:28:37.600994",
+            "datePartie": "2024-02-22 20:20:44.061181",
+            "nom": "daniella",
             "listeReponses": [
                 {
                     "question": "Pour utiliser les objets connectés, on va utiliser lequel des nano-ordinateurs?",
@@ -13,9 +13,24 @@
                     "question": "Dans le cours, on va utiliser quel langage de programmation?",
                     "reponse": "c",
                     "bonne": true
+                },
+                {
+                    "question": "Quelle environnement de développement on utilise dans le cours?",
+                    "reponse": "a",
+                    "bonne": true
+                },
+                {
+                    "question": "En quelle année la seconde guerre mondiale a-t-elle pris fin?",
+                    "reponse": "a",
+                    "bonne": false
+                },
+                {
+                    "question": "Quelle est la capitale de la France?",
+                    "reponse": "c",
+                    "bonne": true
                 }
             ],
-            "pointage": 4
+            "pointage": 7
         }
     ]
 }
