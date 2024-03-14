@@ -1,7 +1,7 @@
 {
     "resultat": [
         {
-            "datePartie": "2024-02-22 20:20:44.061181",
+            "datePartie": "2024-03-14 09:34:56.839046",
             "nom": "daniella",
             "listeReponses": [
                 {
@@ -11,8 +11,8 @@
                 },
                 {
                     "question": "Dans le cours, on va utiliser quel langage de programmation?",
-                    "reponse": "c",
-                    "bonne": true
+                    "reponse": "a",
+                    "bonne": false
                 },
                 {
                     "question": "Quelle environnement de développement on utilise dans le cours?",
@@ -26,11 +26,11 @@
                 },
                 {
                     "question": "Quelle est la capitale de la France?",
-                    "reponse": "c",
-                    "bonne": true
+                    "reponse": "a",
+                    "bonne": false
                 }
             ],
-            "pointage": 7
+            "pointage": 3
         }
     ]
 }
